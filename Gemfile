@@ -19,6 +19,12 @@ gem 'puma', '~> 3.11'
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
+gem 'pg'
+gem 'faker'
+gem 'pry'
+
+gem 'draper'
+gem 'memory_profiler', git: 'https://github.com/SamSaffron/memory_profiler', ref: 'e5a8228'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
