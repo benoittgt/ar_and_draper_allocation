@@ -23,7 +23,6 @@ gem 'pg'
 gem 'faker'
 gem 'pry'
 
-gem 'draper'
 gem 'memory_profiler', git: 'https://github.com/SamSaffron/memory_profiler', ref: 'e5a8228'
 
 group :development, :test do
