@@ -12,7 +12,7 @@ namespace :concat_records do
       comments_number.times do |i|
         puts "\n>>>>>>>> #{i}\n"
         comment = Comment.create(author: Faker::Artist.name, text: Faker::Simpsons.quote)
-        article.comments << comment
+        CommentsArticle.create(comment: comment, article: article)
       end
     end
     puts report.pretty_print(scale_bytes: true)
