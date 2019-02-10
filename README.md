@@ -1,5 +1,7 @@
 # With draper and concatenation
 
+Command : `rails concat_records:comments[2000]`
+
 Look at other branchs for other results
 
 ```
